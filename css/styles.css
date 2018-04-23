@@ -1,0 +1,71 @@
+body {
+  background-color: #117864;
+  color: white;
+}
+
+h1 {
+  font-size: 100px;
+  text-align: center;
+  font-family: fantasy, sans-serif;
+}
+
+.items {
+  font-size: 30px;
+  margin: 10px;
+  padding: 5px 20px;
+  border: 2px solid white;
+  border-radius: 6px;
+  background-color: #17A589;
+  display: block;
+}
+
+.win {
+  font-size: 30px;
+  margin: 10px 0 10px 500px;
+  padding: 5px 20px;
+  border: 2px solid white;
+  border-radius: 6px;
+  background-color: #17A589;
+  display: block;
+  width: 500px;
+  text-align: center;
+}
+
+
+#lootBox {
+  position: fixed;
+  width: 12em;
+  display: block;
+  font-style: italic;
+  margin-left: 1300px;
+  bottom: 520px;
+  border-radius: 4px;
+  border: 2px solid #fff;
+  color: #fff;
+  background-color: #17A589;
+  padding: 15px 0;
+  transition: .5s ;
+}
+
+#lootBox:hover {
+  background-color: #76D7C4;
+}
+
+#lootBox:focus {
+  outline: none;
+}
+
+#deleteItem {
+  position: fixed;
+  width: 12em;
+  display: block;
+  font-style: italic;
+  margin-left: 1300px;
+  bottom: 450px;
+  border-radius: 4px;
+  border: 2px solid #fff;
+  color: #fff;
+  background-color: #17A589;
+  padding: 15px 0;
+  transition: .5s ;
+}
